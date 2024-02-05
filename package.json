@@ -1,0 +1,28 @@
+{
+  "name": "create-music-api",
+  "version": "0.0.1",
+  "description": "api codebase for creative music application",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "vitest",
+    "process": "tsup-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Creative-Music/api.git"
+  },
+  "author": "Seva Zaikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Creative-Music/api/issues"
+  },
+  "homepage": "https://github.com/Creative-Music/api#readme",
+  "devDependencies": {
+    "tsup": "8.0.1",
+    "typescript": "5.3.3",
+    "vitest": "1.2.2"
+  },
+  "dependencies": {
+    "fastify": "4.26.0"
+  }
+}
